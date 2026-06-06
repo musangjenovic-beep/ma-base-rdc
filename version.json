@@ -1,5 +1,483 @@
 {
-  "version": "v14.2.0",
-  "description": "Actualisation de la photo de S.E. Félix Tshisekedi et réajustement des superficies de Lubumbashi.cette mise a jour garantie une bonne fonctionnement ",
-  "release_date": "2026-06-05"
+  "version": "v14.5.0",
+  "description": "Ajout des 26 provinces de la RDC avec toutes leurs données détaillées : chef-lieu, superficie, population, description, détails, liens, anecdotes et citations.",
+  "release_date": "2026-06-06",
+  "updates": [
+    {
+      "key": "kinshasa",
+      "nom": "kinshasa",
+      "display_name": "Kinshasa (Ville-Province)",
+      "categorie": "geographie",
+      "chef_lieu": "Kinshasa",
+      "superficie": "9 965 km²",
+      "population": "13 916 000 habitants (2019)",
+      "description": "Capitale de la RDC et plus grande mégapole d'Afrique noire, centre névralgique politique, économique et culturel du pays.",
+      "details": "Ville-province unique en RDC, Kinshasa regroupe 24 communes bouillonnantes sur les rives du fleuve Congo. C'est la ville francophone la plus peuplée du monde, devançant Paris.",
+      "liens": [
+        "fleuve_congo",
+        "lubumbashi",
+        "matadi"
+      ],
+      "anecdote": "La route reliant l'aéroport de Ndjili au centre-ville est jalonnée de monuments théâtraux et de parades musicales spectaculaires.",
+      "quote": "Kinshasa est une ville qui ne dort jamais, où la musique guérit les maux et la débrouillardise est un hymne national."
+    },
+    {
+      "key": "kongo_central",
+      "nom": "kongo_central",
+      "display_name": "Kongo Central",
+      "categorie": "geographie",
+      "chef_lieu": "Matadi",
+      "superficie": "53 920 km²",
+      "population": "6 365 000 habitants (2019)",
+      "description": "Province côtière abritant le seul port maritime en eau profonde de la RDC, cœur logistique de l'approvisionnement national.",
+      "details": "Ancienne province du Bas-Congo, elle s'étend le long de l'océan Atlantique et du fleuve Congo. Son relief escarpé et ses falaises dominent les tumultueux rapides du bas fleuve. Le Pont Maréchal Mobutu (722 m) enjambe majestueusement le fleuve.",
+      "liens": [
+        "matadi",
+        "fleuve_congo",
+        "kinshasa"
+      ],
+      "anecdote": "Le port de Matadi est la gorge d'approvisionnement de toute la RDC, avec des cortèges ininterrompus de semi-remorques gravissant les collines rocailleuses.",
+      "quote": "Le fleuve passe au milieu des pierres, mais Matadi demeure solide comme son rocher."
+    },
+    {
+      "key": "kwango",
+      "nom": "kwango",
+      "display_name": "Kwango",
+      "categorie": "geographie",
+      "chef_lieu": "Kenge",
+      "superficie": "89 974 km²",
+      "population": "2 416 000 habitants (2019)",
+      "description": "Province du Grand Bandundu, carrefour culturel yaka et pende, riche en traditions artistiques et en savoirs traditionnels.",
+      "details": "Issue du découpage de l'ancienne province du Bandundu, le Kwango est peuplé majoritairement par les Yaka et Pende, célèbres pour leurs masques sculptés et leurs danses rituelles. La province reste en grande partie rurale avec une économie agricole.",
+      "liens": [
+        "kwilu",
+        "mai_ndombe",
+        "kinshasa"
+      ],
+      "anecdote": "Les masques Pende du Kwango sont considérés parmi les plus beaux d'Afrique centrale et inspirent encore les artistes contemporains mondiaux.",
+      "quote": "Le Kwango garde les secrets des ancêtres dans chaque masque sculpté."
+    },
+    {
+      "key": "kwilu",
+      "nom": "kwilu",
+      "display_name": "Kwilu",
+      "categorie": "geographie",
+      "chef_lieu": "Bandundu",
+      "superficie": "78 533 km²",
+      "population": "6 169 000 habitants (2019)",
+      "description": "Province du Grand Bandundu au cœur du bassin du Kwilu, terre des Bambala et des Yansi, réputée pour son agriculture et sa pêche.",
+      "details": "La province du Kwilu s'étend sur les rives du fleuve Kwilu et de ses affluents. Bandundu, son chef-lieu, est un ancien poste colonial et un centre commercial fluvial important. L'agriculture (manioc, riz, palmier à huile) domine l'économie locale.",
+      "liens": [
+        "kwango",
+        "mai_ndombe",
+        "kasai"
+      ],
+      "anecdote": "Le marché flottant de Bandundu sur le Kwilu est un spectacle unique où les piroguiers vendent leurs produits directement depuis leurs embarcations.",
+      "quote": "Le Kwilu nourrit le corps et l'âme de ses enfants depuis des générations."
+    },
+    {
+      "key": "mai_ndombe",
+      "nom": "mai_ndombe",
+      "display_name": "Maï-Ndombe",
+      "categorie": "geographie",
+      "chef_lieu": "Inongo",
+      "superficie": "127 243 km²",
+      "population": "2 082 000 habitants (2019)",
+      "description": "Province du Grand Bandundu caractérisée par le lac Maï-Ndombe, le plus grand lac intérieur de la RDC après le lac Tanganyika.",
+      "details": "Le lac Maï-Ndombe (signifiant 'eau noire' en lingala) couvre environ 2 300 km² et est alimenté par plusieurs rivières dont la Lukenie. La province est peuplée par les Ngelima, Mbole et autres peuples du centre. L'exploitation forestière et la pêche sont les principales activités.",
+      "liens": [
+        "kwilu",
+        "kwango",
+        "tshuapa"
+      ],
+      "anecdote": "Le lac Maï-Ndombe est si vaste que les pêcheurs locaux l'appellent 'la mer intérieure du Congo' et y naviguent parfois plusieurs jours d'affilée.",
+      "quote": "L'eau noire du Maï-Ndombe cache des trésors que seuls les vieux pêcheurs savent trouver."
+    },
+    {
+      "key": "kasai",
+      "nom": "kasai",
+      "display_name": "Kasaï",
+      "categorie": "geographie",
+      "chef_lieu": "Tshikapa",
+      "superficie": "95 631 km²",
+      "population": "3 165 000 habitants (2019)",
+      "description": "Province du Grand Kasaï, terre des diamants alluvionnaires et des peuples luba-kasai, cœur historique de l'identité kasaienne.",
+      "details": "Issue de l'ancienne province du Kasaï-Occidental, cette province est mondialement connue pour ses gisements de diamants alluvionnaires exploités artisanalement. Tshikapa est le centre commercial de ces activités. La population est majoritairement luba-kasai.",
+      "liens": [
+        "kasai_central",
+        "kasai_oriental",
+        "lomami"
+      ],
+      "anecdote": "Les creuseurs de diamants du Kasaï travaillent parfois dans des trous de plusieurs mètres de profondeur, utilisant uniquement des outils artisanaux.",
+      "quote": "Le diamant du Kasaï brille autant que la résilience de son peuple."
+    },
+    {
+      "key": "kasai_central",
+      "nom": "kasai_central",
+      "display_name": "Kasaï-Central",
+      "categorie": "geographie",
+      "chef_lieu": "Kananga",
+      "superficie": "59 500 km²",
+      "population": "3 743 000 habitants (2019)",
+      "description": "Province du Grand Kasaï, pivot historique et intellectuel, célèbre pour la Constitution de Luluabourg en 1964 et son identité luba forte.",
+      "details": "Anciennement Luluabourg, Kananga est le cœur démographique central de la nation. La ville fut le site de la rédaction de la première constitution de la RDC indépendante. Nœud ferroviaire clé sur la ligne BCK reliant le Katanga au port d'Ilebo.",
+      "liens": [
+        "kananga",
+        "kasai",
+        "kasai_oriental"
+      ],
+      "anecdote": "C'est à Luluabourg que s'est déroulée la mémorable table ronde constitutionnelle qui a rédigé le socle fédéraliste de la république originelle.",
+      "quote": "À Kananga, l'hospitalité kasaienne s'exprime dans chaque poignée de main."
+    },
+    {
+      "key": "kasai_oriental",
+      "nom": "kasai_oriental",
+      "display_name": "Kasaï-Oriental",
+      "categorie": "geographie",
+      "chef_lieu": "Mbuji-Mayi",
+      "superficie": "9 545 km²",
+      "population": "3 601 000 habitants (2019)",
+      "description": "Capitale mondiale du diamant industriel, anciennement Bakwanga, métropole minière au dynamisme commercial exceptionnel.",
+      "details": "Née de toutes pièces au début du XXe siècle pour loger les ouvriers de la MIBA, la ville s'est transformée en gigantesque agglomération. L'économie est dominée par les comptoirs d'achat de petits négociants en diamant. Cinquième ville la plus peuplée du pays.",
+      "liens": [
+        "mbujimayi",
+        "kasai",
+        "kasai_central"
+      ],
+      "anecdote": "La majorité des transactions importantes s'y effectue traditionnellement en dollars américains cash au fond de minuscules comptoirs bordés de balances de précision.",
+      "quote": "Le diamant brille à Mbuji-Mayi, mais notre vraie richesse reste le courage de nos creuseurs."
+    },
+    {
+      "key": "lomami",
+      "nom": "lomami",
+      "display_name": "Lomami",
+      "categorie": "geographie",
+      "chef_lieu": "Kabinda",
+      "superficie": "56 426 km²",
+      "population": "2 801 000 habitants (2019)",
+      "description": "Province du Grand Kasaï, terre des Baluba du Lomami, riche en traditions orales et en agriculture sur les plateaux fertiles.",
+      "details": "Issue du découpage de l'ancien Kasaï-Oriental, la province du Lomami est peuplée principalement par les Baluba. L'agriculture (maïs, arachide, manioc) et l'élevage constituent les piliers de l'économie. Kabinda est un centre commercial régional important.",
+      "liens": [
+        "kasai",
+        "kasai_oriental",
+        "sankuru"
+      ],
+      "anecdote": "Les griots du Lomami sont réputés pour leurs épopées orales qui peuvent durer plusieurs nuits, transmettant l'histoire des clans luba de génération en génération.",
+      "quote": "Le Lomami nourrit le corps avec ses récoltes et l'esprit avec ses histoires."
+    },
+    {
+      "key": "sankuru",
+      "nom": "sankuru",
+      "display_name": "Sankuru",
+      "categorie": "geographie",
+      "chef_lieu": "Lusambo",
+      "superficie": "104 331 km²",
+      "population": "2 417 000 habitants (2019)",
+      "description": "Province du Grand Kasaï traversée par la rivière Sankuru, terre des Tetela et Kusu, aux vastes forêts et aux traditions chasseurs-cueilleurs.",
+      "details": "La province du Sankuru est une des plus vastes du Grand Kasaï, couverte en grande partie par des forêts tropicales. La rivière Sankuru, affluent du Kasai, la traverse du sud au nord. Lusambo fut un important poste colonial et missionnaire.",
+      "liens": [
+        "lomami",
+        "kasai",
+        "tshopo"
+      ],
+      "anecdote": "Les chasseurs Tetela du Sankuru utilisent encore des techniques de piégeage traditionnelles transmises depuis des siècles dans la forêt équatoriale.",
+      "quote": "La forêt du Sankuru donne ce qu'il faut à qui sait l'écouter."
+    },
+    {
+      "key": "maniema",
+      "nom": "maniema",
+      "display_name": "Maniema",
+      "categorie": "geographie",
+      "chef_lieu": "Kindu",
+      "superficie": "132 250 km²",
+      "population": "2 654 000 habitants (2019)",
+      "description": "Province de l'Est au cœur de la forêt équatoriale, carrefour commercial entre l'Est et l'Ouest, riche en ressources forestières et minérales.",
+      "details": "Kindu est située sur les rives du fleuve Lualaba (haut Congo). La province est couverte à 80% par la forêt équatoriale et possède d'importants gisements d'or, d'étain et de coltan. Le port fluvial de Kindu est un point de transbordement crucial.",
+      "liens": [
+        "kindu",
+        "sud_kivu",
+        "tshopo",
+        "tanganyika"
+      ],
+      "anecdote": "Le marché de Kindu est célèbre pour ses échanges de produits forestiers rares : bois précieux, plantes médicinales et minerais qui traversent la forêt depuis les mines isolées.",
+      "quote": "Le Maniema est le poumon vert du Congo, où la forêt et le fleuve dansent ensemble."
+    },
+    {
+      "key": "sud_kivu",
+      "nom": "sud_kivu",
+      "display_name": "Sud-Kivu",
+      "categorie": "geographie",
+      "chef_lieu": "Bukavu",
+      "superficie": "64 791 km²",
+      "population": "6 565 000 habitants (2019)",
+      "description": "Province de l'Est au bord du lac Kivu, surnommée 'Bukavu la Verte', réputée pour son climat de montagne, sa gastronomie et son engagement féminin.",
+      "details": "Bukavu est construite sur cinq péninsules escarpées s'avançant dans le lac Kivu. Elle abrite l'Hôpital de Panzi dirigé par le Dr Denis Mukwege (Prix Nobel de la Paix 2018). L'agriculture de montagne (café, thé, quinine) et le tourisme sont développés.",
+      "liens": [
+        "bukavu",
+        "goma",
+        "nord_kivu",
+        "maniema"
+      ],
+      "anecdote": "La ville abrite le célèbre institut de recherche de Lwiro avec son sanctuaire de chimpanzés orphelins et l'une des bibliothèques scientifiques coloniales les plus riches d'Afrique subsaharienne.",
+      "quote": "Bukavu reste la perle verte du Kivu, debout malgré les orages géopolitiques."
+    },
+    {
+      "key": "nord_kivu",
+      "nom": "nord_kivu",
+      "display_name": "Nord-Kivu",
+      "categorie": "geographie",
+      "chef_lieu": "Goma",
+      "superficie": "59 483 km²",
+      "population": "7 574 000 habitants (2019)",
+      "description": "Province de l'Est au pied du volcan Nyiragongo, capitale humanitaire et touristique, carrefour commercial frontalier avec le Rwanda.",
+      "details": "Goma est située au bord du lac Kivu et au pied du volcan Nyiragongo. Elle est la porte d'entrée du Parc National des Virunga. La province fait face à l'instabilité militaire chronique mais montre une résilience stupéfiante. Économie dollarisée et base humanitaire majeure.",
+      "liens": [
+        "goma",
+        "sud_kivu",
+        "parc_virunga",
+        "ituri"
+      ],
+      "anecdote": "La ville abrite une flotte artistique de vélos artisanaux géants en bois appelés 'Chukudus', véritables chefs-d'œuvre d'ingéniosité locale pouvant transporter jusqu'à 500 kg.",
+      "quote": "La lave détruit, mais notre esprit de reconstruction est plus solide que la roche noire."
+    },
+    {
+      "key": "ituri",
+      "nom": "ituri",
+      "display_name": "Ituri",
+      "categorie": "geographie",
+      "chef_lieu": "Bunia",
+      "superficie": "65 658 km²",
+      "population": "4 008 000 habitants (2019)",
+      "description": "Province du nord-est aux confins de la forêt équatoriale et de la savane, théâtre de conflits ethniques mais aussi terre d'or et de bois précieux.",
+      "details": "L'Ituri est une province de transition entre la forêt équatoriale et la savane. Bunia est un centre commercial important pour le commerce transfrontalier avec l'Ouganda et le Soudan du Sud. La province est riche en or et possède une biodiversité exceptionnelle.",
+      "liens": [
+        "haut_uele",
+        "tshopo",
+        "nord_kivu"
+      ],
+      "anecdote": "La Réserve de faune à okapis de l'Ituri est le seul endroit au monde où l'on peut observer cet animal emblématique, cousin de la girafe et symbole de la RDC.",
+      "quote": "L'Ituri garde ses secrets dans la profondeur de sa forêt et la brillance de son or."
+    },
+    {
+      "key": "haut_uele",
+      "nom": "haut_uele",
+      "display_name": "Haut-Uélé",
+      "categorie": "geographie",
+      "chef_lieu": "Isiro",
+      "superficie": "89 683 km²",
+      "population": "2 046 000 habitants (2019)",
+      "description": "Province du nord-est à la lisière de la forêt équatoriale, aux vastes étendues sauvages et aux peuples Azande et Mangbetu aux traditions artistiques renommées.",
+      "details": "Le Haut-Uélé est une des provinces les moins peuplées de la RDC, couverte de forêts tropicales et de savanes. Isiro est un ancien centre colonial et missionnaire. Les peuples Azande et Mangbetu sont célèbres pour leurs sculptures, leurs harpes et leurs coiffures élaborées.",
+      "liens": [
+        "ituri",
+        "bas_uele",
+        "tshopo"
+      ],
+      "anecdote": "Les sculpteurs Mangbetu du Haut-Uélé créaient des figures anthropomorphes réputées dans les musées du monde entier pour leur élégance et leur symbolisme.",
+      "quote": "Le Haut-Uélé est le gardien des traditions que le monde moderne a oubliées."
+    },
+    {
+      "key": "tshopo",
+      "nom": "tshopo",
+      "display_name": "Tshopo",
+      "categorie": "geographie",
+      "chef_lieu": "Kisangani",
+      "superficie": "199 567 km²",
+      "population": "2 582 000 habitants (2019)",
+      "description": "Province du nord-est au cœur de la forêt équatoriale, chef-lieu Kisangani, centre névralgique fluvial et universitaire au bord des chutes Wagenia.",
+      "details": "Kisangani est bâtie là où le fleuve Congo cesse d'être navigable en amont, bloqué par les chutes Wagenia. Elle abrite les célèbres pêcheurs Wagenia avec leurs échafaudages en bois. L'Université de Kisangani (UNIKIS) est un pôle intellectuel majeur.",
+      "liens": [
+        "kisangani",
+        "ituri",
+        "haut_uele",
+        "maniema"
+      ],
+      "anecdote": "Les Wagenia gèrent un art de la pêche inchangé depuis des siècles, naviguant à la perche sur des eaux bouillonnantes que même les moteurs modernes craignent de traverser.",
+      "quote": "Qui boit l'eau de la Tshopo y reviendra toujours."
+    },
+    {
+      "key": "bas_uele",
+      "nom": "bas_uele",
+      "display_name": "Bas-Uélé",
+      "categorie": "geographie",
+      "chef_lieu": "Buta",
+      "superficie": "148 331 km²",
+      "population": "1 250 000 habitants (2019)",
+      "description": "Province du nord-est la plus septentrionale de la RDC, aux vastes étendues forestières peu peuplées, aux peuples Boa et Zande aux traditions chasseurs.",
+      "details": "Le Bas-Uélé est la province la plus au nord de la RDC, frontalière de la République centrafricaine. Buta est un ancien poste colonial et un centre de regroupement pour les produits forestiers. La province est très peu peuplée avec une densité de seulement 8,4 hab/km².",
+      "liens": [
+        "haut_uele",
+        "tshopo",
+        "nord_ubangi"
+      ],
+      "anecdote": "Les chasseurs Boa du Bas-Uélé utilisent des arcs et des flèches empoisonnées avec des techniques transmises depuis des générations pour chasser dans la forêt dense.",
+      "quote": "Le Bas-Uélé est le toit du Congo, où le silence de la forêt parle plus fort que les hommes."
+    },
+    {
+      "key": "nord_ubangi",
+      "nom": "nord_ubangi",
+      "display_name": "Nord-Ubangi",
+      "categorie": "geographie",
+      "chef_lieu": "Gbadolite",
+      "superficie": "56 644 km²",
+      "population": "1 425 000 habitants (2019)",
+      "description": "Province du nord-ouest à la frontière centrafricaine, ancien fief de Mobutu avec son palais de Gbadolite, terre des peuples Ngbaka et Yakoma.",
+      "details": "Gbadolite est célèbre pour avoir été le fief personnel de Mobutu Sese Seko, qui y a construit un palais somptueux et un aéroport international. La province est peuplée par les Ngbaka, Yakoma et autres peuples du nord-ouest. L'agriculture et la pêche dans l'Oubangui dominent.",
+      "liens": [
+        "mongala",
+        "sud_ubangi",
+        "equateur"
+      ],
+      "anecdote": "Le palais de Mobutu à Gbadolite, surnommé 'Versailles de la jungle', comprenait un aéroport capable d'accueillir le Concorde et des décors somptueux aujourd'hui abandonnés.",
+      "quote": "Le Nord-Ubangi porte les cicatrices et les rêves d'une époque révolue."
+    },
+    {
+      "key": "mongala",
+      "nom": "mongala",
+      "display_name": "Mongala",
+      "categorie": "geographie",
+      "chef_lieu": "Lisala",
+      "superficie": "58 141 km²",
+      "population": "1 950 000 habitants (2019)",
+      "description": "Province du nord-ouest traversée par la Mongala, affluent du Congo, terre des peuples Mongo et Bangala, au cœur du bassin de l'Équateur.",
+      "details": "Lisala est située sur la rivière Mongala, un affluent important du fleuve Congo. La province est une des plus anciennes entités administratives de l'Équateur, peuplée par les Mongo et Bangala. L'agriculture (manioc, riz, banane) et la pêche sont les activités principales.",
+      "liens": [
+        "nord_ubangi",
+        "sud_ubangi",
+        "equateur"
+      ],
+      "anecdote": "Lisala est la ville natale de Mobutu Sese Seko, et la région conserve encore des traces de l'influence de son époque sur l'architecture et les infrastructures locales.",
+      "quote": "La Mongala coule paisiblement, portant les histoires des peuples du nord-ouest."
+    },
+    {
+      "key": "sud_ubangi",
+      "nom": "sud_ubangi",
+      "display_name": "Sud-Ubangi",
+      "categorie": "geographie",
+      "chef_lieu": "Gemena",
+      "superficie": "51 648 km²",
+      "population": "2 755 000 habitants (2019)",
+      "description": "Province du nord-ouest à la frontière centrafricaine, terre des peuples Ngbaka et Banda, carrefour commercial et agricole du nord-ouest.",
+      "details": "Gemena est un important centre commercial et administratif du nord-ouest. La province est traversée par plusieurs affluents de l'Oubangui et est riche en ressources forestières. L'agriculture (manioc, riz, palmier à huile) et le commerce transfrontalier sont développés.",
+      "liens": [
+        "nord_ubangi",
+        "mongala",
+        "equateur"
+      ],
+      "anecdote": "Le marché de Gemena est réputé pour ses échanges transfrontaliers avec la République centrafricaine, où l'on trouve des produits rares des deux côtés de la frontière.",
+      "quote": "Le Sud-Ubangi est la porte du nord-ouest, où les fleuves et les peuples se rencontrent."
+    },
+    {
+      "key": "equateur",
+      "nom": "equateur",
+      "display_name": "Équateur",
+      "categorie": "geographie",
+      "chef_lieu": "Mbandaka",
+      "superficie": "103 902 km²",
+      "population": "1 712 000 habitants (2019)",
+      "description": "Province du nord-ouest au cœur du bassin du Congo, traversée par l'équateur terrestre, terre des peuples Mongo et centre administratif historique.",
+      "details": "Mbandaka est située exactement sur la ligne de l'équateur et est un important port fluvial sur le fleuve Congo. La province est couverte de forêt équatoriale dense et est peuplée principalement par les Mongo. L'agriculture, la pêche et le commerce fluvial sont les activités dominantes.",
+      "liens": [
+        "tshuapa",
+        "mongala",
+        "sud_ubangi",
+        "mai_ndombe"
+      ],
+      "anecdote": "Mbandaka possède un monument de l'équateur où les visiteurs peuvent se tenir avec un pied dans l'hémisphère nord et l'autre dans l'hémisphère sud.",
+      "quote": "À Mbandaka, l'équateur n'est pas une ligne, c'est un état d'esprit."
+    },
+    {
+      "key": "tshuapa",
+      "nom": "tshuapa",
+      "display_name": "Tshuapa",
+      "categorie": "geographie",
+      "chef_lieu": "Boende",
+      "superficie": "132 957 km²",
+      "population": "1 789 000 habitants (2019)",
+      "description": "Province du nord-ouest au cœur de la forêt équatoriale, terre des peuples Mongo, riche en biodiversité et en ressources forestières exploitées.",
+      "details": "Boende est un centre administratif et commercial au cœur de la forêt équatoriale. La province est couverte à plus de 90% par la forêt tropicale et possède une biodiversité exceptionnelle. L'exploitation forestière et la chasse sont les principales activités économiques.",
+      "liens": [
+        "equateur",
+        "mai_ndombe",
+        "tshopo"
+      ],
+      "anecdote": "Les chasseurs-pygmées Tshuapa connaissent la forêt équatoriale comme leur poche et utilisent des connaissances botaniques ancestrales pour survivre et guérir.",
+      "quote": "La forêt du Tshuapa est notre pharmacie, notre supermarché et notre cathédrale."
+    },
+    {
+      "key": "tanganyika",
+      "nom": "tanganyika",
+      "display_name": "Tanganyika",
+      "categorie": "geographie",
+      "chef_lieu": "Kalemie",
+      "superficie": "134 940 km²",
+      "population": "3 570 000 habitants (2019)",
+      "description": "Province du sud-est au bord du lac Tanganyika, terre des peuples Luba et Tabwa, riche en minerais et en poissons du lac le plus profond d'Afrique.",
+      "details": "Kalemie est située sur les rives du lac Tanganyika, le deuxième lac d'eau douce le plus grand du monde et le plus profond d'Afrique. La province est riche en minerais (cobalt, cuivre) et l'artisanat Tabwa est renommé. Le port de Kalemie est un point de transbordement important.",
+      "liens": [
+        "haut_lomami",
+        "lualaba",
+        "haut_katanga",
+        "sud_kivu"
+      ],
+      "anecdote": "Le lac Tanganyika abrite plus de 300 espèces de cichlidés endémiques, et les pêcheurs de Kalemie utilisent des techniques de pêche traditionnelles datant de plusieurs siècles.",
+      "quote": "Le Tanganyika donne son nom à la province, mais c'est la province qui donne son âme au lac."
+    },
+    {
+      "key": "haut_lomami",
+      "nom": "haut_lomami",
+      "display_name": "Haut-Lomami",
+      "categorie": "geographie",
+      "chef_lieu": "Kamina",
+      "superficie": "108 204 km²",
+      "population": "3 444 000 habitants (2019)",
+      "description": "Province du sud-est au cœur de l'ancien Katanga, terre des peuples Luba et Songye, carrefour ferroviaire et minier historique.",
+      "details": "Kamina est un important nœud ferroviaire sur la ligne reliant le Katanga au reste du pays. La province est riche en minerais (cuivre, cobalt) et en agriculture. Les peuples Luba et Songye y cohabitent, apportant une richesse culturelle exceptionnelle.",
+      "liens": [
+        "tanganyika",
+        "lualaba",
+        "haut_katanga",
+        "lomami"
+      ],
+      "anecdote": "Kamina était un centre stratégique majeur pendant la crise congolaise de 1960 et la sécession du Katanga, avec des batailles mémorables pour le contrôle du nœud ferroviaire.",
+      "quote": "Le Haut-Lomami est le carrefour du Katanga, où les rails et les destins se croisent."
+    },
+    {
+      "key": "lualaba",
+      "nom": "lualaba",
+      "display_name": "Lualaba",
+      "categorie": "geographie",
+      "chef_lieu": "Kolwezi",
+      "superficie": "121 308 km²",
+      "population": "2 993 000 habitants (2019)",
+      "description": "Province du sud-est au cœur du Copperbelt, capitale du cobalt mondial, terre des peuples Lunda et Ruund, aux mines à ciel ouvert spectaculaires.",
+      "details": "Kolwezi est la capitale mondiale du cobalt, minerais essentiel pour les batteries électriques. La province est couverte de mines à ciel ouvert impressionnantes. Les peuples Lunda et Ruund y ont développé un riche artisanat et des traditions monarchiques.",
+      "liens": [
+        "tanganyika",
+        "haut_lomami",
+        "haut_katanga"
+      ],
+      "anecdote": "Les mines de cobalt de Kolwezi sont visibles depuis l'espace et alimentent la moitié de la production mondiale de ce métal stratégique pour la transition énergétique.",
+      "quote": "Le Lualaba ne donne pas seulement du cobalt, il donne l'avenir de la planète."
+    },
+    {
+      "key": "haut_katanga",
+      "nom": "haut_katanga",
+      "display_name": "Haut-Katanga",
+      "categorie": "geographie",
+      "chef_lieu": "Lubumbashi",
+      "superficie": "132 425 km²",
+      "population": "5 378 000 habitants (2019)",
+      "description": "Province du sud-est, cœur minier et économique de la RDC, capitale du cuivre et du cobalt, ville la plus développée du pays après Kinshasa.",
+      "details": "Lubumbashi est la deuxième ville de la RDC et le centre économique du pays. Fondée en 1910 sous le nom d'Élisabethville, elle s'est développée autour des mines de cuivre. Le TP Mazembe est le club de football le plus titré d'Afrique centrale. Architecture coloniale remarquable.",
+      "liens": [
+        "lubumbashi",
+        "lualaba",
+        "haut_lomami",
+        "tanganyika"
+      ],
+      "anecdote": "La cheminée géante de l'ancienne usine Gécamines, haute de 150 mètres, est le symbole visuel absolu de Lubumbashi, visible à des kilomètres à la ronde.",
+      "quote": "Le Katanga produit, Kinshasa dépense."
+    }
+  ]
 }
